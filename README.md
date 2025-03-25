@@ -22,70 +22,43 @@ While Assassin’s Creed Shadows currently holds a "Very Positive" rating on Ste
    - Trailer or dev update videos using YouTube Data API
 
 🛠️ Tools & Libraries:
-Data Collection: requests, BeautifulSoup, PRAW, Tweepy, youtube_dl, steamreviews
-
-Text Processing: nltk, spaCy, re, langdetect, emoji
-
-Sentiment Analysis:
-
-Basic: TextBlob, VADER (good for social media/short text)
-
-Advanced: BERT (with transformers, for context-aware sentiment)
-
-Topic Modeling: LDA, BERTopic
-
-Visualization: matplotlib, seaborn, plotly, wordcloud, streamlit (for dashboards)
+ - Data Collection: requests, BeautifulSoup, PRAW, Tweepy, youtube_dl, steamreviews
+ - Text Processing: nltk, spaCy, re, langdetect, emoji
+ - Sentiment Analysis:
+ - Basic: TextBlob, VADER (good for social media/short text)
+ - Advanced: BERT (with transformers, for context-aware sentiment)
+ - Topic Modeling: LDA, BERTopic
+ - Visualization: matplotlib, seaborn, plotly, wordcloud, streamlit (for dashboards)
 
 🧠 Workflow:
-Data Collection & Cleaning
-
-Remove duplicates, translate non-English, clean HTML tags/emojis
-
-Sentiment Labeling
-
-Classify each comment/post into Positive / Neutral / Negative
-
-Keyword Extraction & Topic Modeling
-
-Identify key topics: characters, story, combat, visuals, performance
-
-Time Series Sentiment
-
-Compare sentiment from trailer launch → gameplay reveal → release → patches
-
-Cross-Platform Comparison
-
-Are Steam users more positive than Redditors? Are Twitter users more critical?
-
-Optional: Review Bomb Detection
-
-Use timestamps and sudden spikes in review count or negativity
+1. Data Collection & Cleaning
+2. Remove duplicates, translate non-English, clean HTML tags/emojis
+3. Sentiment Labeling
+4. Classify each comment/post into Positive / Neutral / Negative
+5. Keyword Extraction & Topic Modeling
+6. Identify key topics: characters, story, combat, visuals, performance
+7. Time Series Sentiment
+8. Compare sentiment from trailer launch → gameplay reveal → release → patches
+9. Cross-Platform Comparison
+10. Are Steam users more positive than Redditors? Are Twitter users more critical?
+11. Optional: Review Bomb Detection
+12. Use timestamps and sudden spikes in review count or negativity
 
 📊 Output & Deliverables:
 Interactive dashboard showing:
-
-Sentiment trends over time
-
-Word clouds by sentiment class
-
-Platform comparison chart
-
-Topic-based sentiment breakdown
-
-PDF report or Medium-style blog post with key insights
-
-GitHub repo with cleaned dataset, notebook, and dashboard app
+ - Sentiment trends over time
+ - Word clouds by sentiment class
+ - Platform comparison chart
+ - Topic-based sentiment breakdown
+ - PDF report or Medium-style blog post with key insights
+ - GitHub repo with cleaned dataset, notebook, and dashboard app
 
 🧪 Bonus Explorations:
-Gender-based sentiment (if detectable)
-
-Regional sentiment mapping (e.g., are Japanese players more critical of the setting?)
-
-Compare AC Shadows with previous AC titles
+ - Gender-based sentiment (if detectable)
+ - Regional sentiment mapping (e.g., are Japanese players more critical of the setting?)
+ - Compare AC Shadows with previous AC titles
 
 🧭 Success Criteria:
-Collect and analyze >5,000 comments from multiple platforms
-
-80% classification accuracy (if building your own model)
-
-Provide actionable insights or interesting findings beyond "81% positive"
+ - Collect and analyze >5,000 comments from multiple platforms
+ - 80% classification accuracy (if building your own model)
+ - Provide actionable insights or interesting findings beyond "81% positive"
