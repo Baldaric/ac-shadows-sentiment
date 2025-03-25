@@ -5,32 +5,21 @@
 While Assassin’s Creed Shadows currently holds a "Very Positive" rating on Steam (81%), this aggregated score lacks depth. The goal is to uncover detailed, topic-specific, and temporal sentiment trends surrounding the game—across multiple platforms (Steam, Reddit, Twitter, YouTube, etc.).
 
 🔍 Project Goals:
-Classify sentiments (Positive, Negative, Neutral) from user-generated content.
-
-Extract specific themes (e.g., stealth mechanics, characters, setting, bugs).
-
-Track sentiment over time (e.g., from first trailer to release and beyond).
-
-Compare sentiments across platforms (Steam vs Reddit vs Twitter).
-
-Visualize insights to support players, developers, and analysts.
+ - Classify sentiments (Positive, Negative, Neutral) from user-generated content.
+ - Extract specific themes (e.g., stealth mechanics, characters, setting, bugs).
+ - Track sentiment over time (e.g., from first trailer to release and beyond).
+ - Compare sentiments across platforms (Steam vs Reddit vs Twitter).
+ - Visualize insights to support players, developers, and analysts.
 
 📚 Data Sources:
-Steam Reviews (scraped using steamreviews or beautifulsoup)
-
-Reddit Posts/Comments
-
-Subreddits: r/assassinscreed, r/games, r/gaming
-
-Use PRAW or Pushshift API
-
-Twitter/X
-
-Use Tweepy or Twitter API v2
-
-YouTube Comments
-
-Trailer or dev update videos using YouTube Data API
+ - Steam Reviews (scraped using steamreviews or beautifulsoup)
+ - Reddit Posts/Comments
+ - Subreddits: r/assassinscreed, r/games, r/gaming
+   - Use PRAW or Pushshift API
+ - Twitter/X
+   - Use Tweepy or Twitter API v2
+ - YouTube Comments
+   - Trailer or dev update videos using YouTube Data API
 
 🛠️ Tools & Libraries:
 Data Collection: requests, BeautifulSoup, PRAW, Tweepy, youtube_dl, steamreviews
