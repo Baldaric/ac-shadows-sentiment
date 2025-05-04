@@ -1,0 +1,13 @@
+# Ignore all PNGs starting with sentiment_distribution
+sentiment_distribution*.png
+
+# Ignore the transparent trend image
+sentiment_trend_transparent.png
+
+# Ignore the transparent playtime boxplot
+playtime_boxplot_transparent.png
+
+# Ignore the transparent positive wordcloud
+positive_wordcloud_transparent.png
+
+Slide.ai
