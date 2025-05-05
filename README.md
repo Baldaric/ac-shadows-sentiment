@@ -44,6 +44,11 @@ Aggregated scores do not show **why** players feel positively or negatively abou
 ---
 
 ## 🧾 Deliverables
-- Summary slides (ready for LinkedIn presentation)
+- Summary slides
 - Cleaned dataset & Jupyter notebook
 - GitHub repository with visual assets
+
+---
+
+## 📎 Project Motivation
+As a long-time Assassin's Creed fan, I created this project to explore how players truly feel about the franchise's latest installment—beyond the surface-level score.
